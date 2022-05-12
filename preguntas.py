@@ -125,7 +125,7 @@ def pregunta_03():
         cv= 5,
         scoring= 'neg_mean_squared_error',
         refit= True,
-        return_train_score= False,
+        return_train_score= True,
     )
 
     # Búsque la mejor combinación de regresores
