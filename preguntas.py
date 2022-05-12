@@ -123,7 +123,7 @@ def pregunta_03():
         estimator= pipeline,
         param_grid= param_grid,
         cv= 5,
-        scoring= mean_squared_error,
+        scoring= 'neg_mean_squared_error',
         refit= True,
         return_train_score= False,
     )
